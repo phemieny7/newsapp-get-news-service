@@ -24,5 +24,4 @@ app.use((req, res, next) => {
   });
 });
 
-// app.listen(process.env.PORT || 3001, () => console.log("Server started"));
 module.exports.handler = serverless(app);
