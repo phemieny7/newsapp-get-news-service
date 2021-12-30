@@ -1,0 +1,11 @@
+{
+  "name": "aws-node-express-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "newsapi": "^2.4.1",
+    "serverless-http": "^2.7.0"
+  }
+}
