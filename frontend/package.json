@@ -8,15 +8,22 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "axios": "^0.24.0",
     "bootstrap": "^5.1.3",
     "jquery": "^3.6.0",
+    "moment": "^2.29.1",
     "next": "12.0.7",
+    "next-auth": "^3.11.2",
     "owl.carousel": "^2.3.4",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-modal": "^3.14.4",
+    "reactstrap": "^9.0.1"
   },
   "devDependencies": {
     "eslint": "8.5.0",
-    "eslint-config-next": "12.0.7"
+    "eslint-config-next": "12.0.7",
+    "webpack": "^5.65.0",
+    "webpack-dev-server": "^4.7.2"
   }
 }

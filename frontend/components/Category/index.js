@@ -7,9 +7,9 @@ export default function Category({url, image, category}) {
     <div className="col-6 col-sm-4">
       <div className="card catagory-card mb-3">
         <Link href={url} passHref>
-          <Image src={image} alt="" />
-          <h6>{category}</h6>
+          <img src={image} alt=""/>
         </Link>
+        <h6>{category}</h6>
       </div>
     </div>
   );

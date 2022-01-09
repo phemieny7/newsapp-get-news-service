@@ -55,12 +55,13 @@ Created: 5 Apr 2020
 ---------------------------------------------------------- */
 /* Import Fonts & All CSS Files */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&amp;display=swap");
-@import url(bootstrap.min.css);
-@import url(animate.css);
-@import url(jquery.animatedheadline.css);
-@import url(font-awesome.min.css);
-@import url(default/LineIcons.css);
-@import url(default/apexcharts.css);
+@import url(./bootstrap.min.css);
+@import url(./animate.css);
+@import url(./owl.carousel.min.css);
+@import url(./jquery.animatedheadline.css);
+@import url(./font-awesome.min.css);
+@import url(./default/LineIcons.css);
+@import url(./default/apexcharts.css);
 /* :: 6.1.0 Reboot */
 * {
   margin: 0;

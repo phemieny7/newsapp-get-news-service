@@ -14,7 +14,7 @@ export default function Pageheader({ title }) {
       <div className="container h-100 d-flex align-items-center justify-content-between">
         {/* <!-- Back Button--> */}
         <div className="back-button">
-          <Link href='/' onClick={handleClick}>
+          <Link href='#' onClick={handleClick}>
             <i className="lni lni-chevron-left"></i>
           </Link>
         </div>

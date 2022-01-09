@@ -8,27 +8,34 @@ import Loader from "../Loader";
 import SidebarNav from "../SidebarNav";
 
 export default function Layout({ children, title }) {
+  const [toggle, setToggle] = React.useState(false);
   const router = useRouter();
-  const Navigation = ({title}) => {
+  const Navigation = ({ title }) => {
     return (
-    router.pathname === "/" ? (
       <>
-        <Header /> <div className="sidenav-black-overlay"></div>
+      {
+        router.pathname == "/" ? (
+          <>
+             <Header/> 
+        {/* Header ends here */}
+        <div className="sidenav-black-overlay"></div>
         <SidebarNav />
+          </>
+        ) : ( <>
+        <PageHeader title={title} />
+        </>)
+      }
+       
       </>
-    ) : (
-      // null
-      <PageHeader title={title} />
-    )
-  )};
+    );
+  };
   return (
     <>
-      <Loader />
-      <Navigation title={title}/>
+      {/* <Loader /> */}
+      <Navigation title={title} />
 
       <div className="page-content-wrapper">{children}</div>
       <Footer />
     </>
   );
 }
-

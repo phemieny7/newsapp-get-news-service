@@ -1,13 +1,21 @@
 import React from "react";
 import Link from "next/link";
 
-export default function CategoryCard({url, image, category}) {
+export default function CategoryCard({
+  url,
+  image,
+  category,
+  title,
+  showModal,
+}) {
   return (
     <div className="card catagory-card">
-      <Link href={url} passHref>
+      <a onClick={showModal}>
         <img src={image} alt="" />
         <h6>{category}</h6>
-      </Link>
+
+        {title}
+      </a>
     </div>
   );
 }

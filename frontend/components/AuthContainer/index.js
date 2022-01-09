@@ -14,14 +14,13 @@ export default function AuthCointainer({title, children}) {
           <div className="sr-only">Loading...</div>
         </div>
       </div>
-
       <div className="login-wrapper d-flex align-items-center justify-content-center">
       {/* <!-- Shape--> */}
-      <div className="login-shape"><Image src={logo1.src} alt=""/></div>
-      <div className="login-shape2"><Image src={logo2.src} alt=""/></div>
+      <div className="login-shape"><img src={logo1.src} alt=""/></div>
+      <div className="login-shape2"><img src={logo2.src} alt=""/></div>
       <div className="container">
         {/* <!-- Login Text--> */}
-        <div className="login-text text-center"><Image className="login-img" src={logo3.src} alt=""/>
+        <div className="login-text text-center"><img className="login-img" src={logo3.src} alt=""/>
           <h3 className="mb-0">{title}</h3>
           {/* <!-- Shapes--> */}
           <div className="bg-shapes">
